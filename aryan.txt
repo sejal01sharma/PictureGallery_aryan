@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          .header {
+            background-color: cadetblue;
+          }
+          
+            div.gallery {
+                border: 1px solid #ccc;
+            }
+            div.gallery:hover {
+                border: 1px solid #777;
+            }
+            div.gallery img {
+                width: 100%;
+                height: auto;
+                padding: 2%;
+            }
+            div.desc {                                 /*desc - description of the image*/
+                padding: 1%;
+                text-align: center;
+                margin: auto;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-style: italic;
+                color: rgb(6, 65, 6);
+            }
+           *{
+            box-sizing:border-box;
+           }
+           .container {
+            max-width: 1200px;
+            margin:auto;
+            padding: 4%;
+          }
+            .picturegallery {
+                padding: 0 6px;
+                float: left;
+                width: 24.99999%;
+            }
+            .footer {
+              background-color: #333;
+              color: #fff;
+              padding: 20px;
+            }
+            h3 {
+              font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              font-style: italic;
+            }
+          </style>
+    </head>
+    <body>
+      <div class="header">
+        <h1 style="text-align: center;">NATURE PICTURES</h1>
+      </div>
+      <h3 style="text-align: center;">"Infinite Horizons: Connecting with Nature through Photography."</h3>
+      <div class="container">
+      <div class="picturegallery">
+        <div class="gallery">
+          <a target="_blank" href="https://i.pinimg.com/236x/17/2c/b8/172cb83933e211c8a261d0e7cdc7546a.jpg">
+            <img src="https://i.pinimg.com/236x/17/2c/b8/172cb83933e211c8a261d0e7cdc7546a.jpg" alt="Half Moon" width="600" height="400">
+          </a>
+          <div class="desc">Half Moon</div>
+        </div>
+      </div>
+      </div>
+
+      <div class="container">
+      <div class="picturegallery">
+        <div class="gallery">
+          <a target="_blank" href="https://i.pinimg.com/564x/ef/4a/b2/ef4ab2866469b95d28d5807a13636f12.jpg">
+            <img src="https://i.pinimg.com/564x/ef/4a/b2/ef4ab2866469b95d28d5807a13636f12.jpg" alt="Sunset" width="600" height="400">
+          </a>
+          <div class="desc">Sunset</div>
+        </div>
+      </div>
+      </div>
+
+      <div class="container">
+      <div class="picturegallery">
+        <div class="gallery">
+          <a target="_blank" href="https://i.pinimg.com/236x/36/c6/3b/36c63b71569e01db95d3991aceec3a0e.jpg">
+            <img src="https://i.pinimg.com/236x/36/c6/3b/36c63b71569e01db95d3991aceec3a0e.jpg" alt="Purple Sky" width="600" height="400">
+          </a>
+          <div class="desc">Purple Sky</div>
+        </div>
+      </div>
+      </div>
+
+      <div class="container">
+      <div class="picturegallery">
+        <div class="gallery">
+          <a target="_blank" href="https://i.pinimg.com/564x/d3/73/5e/d3735e3985e782e65e6e1d2426e57c32.jpg">
+            <img src="https://i.pinimg.com/564x/d3/73/5e/d3735e3985e782e65e6e1d2426e57c32.jpg" alt="The Starry Night" width="600" height="400">
+          </a>
+          <div class="desc">Starry Night</div>
+        </div>
+      </div>
+  </body>
+  </html>
+  
+        
